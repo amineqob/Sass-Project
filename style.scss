@@ -1,0 +1,52 @@
+body, html{
+
+    margin: 0;
+}
+body{
+
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+* {
+
+    box-sizing: border-box; 
+}
+header{
+
+
+    position: absolute;
+    z-index: 20;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #ffff;
+    a{
+
+        text-decoration: none;
+        color: #000;
+    }
+    a.logo{
+
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    ul{
+
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+
+    }
+    ul a{
+
+        padding: 1em;
+    }
+  
+
+}
